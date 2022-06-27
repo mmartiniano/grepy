@@ -5,7 +5,7 @@ A Collection of Python modules for extracting data from online systems
 
 ## Twitter
 
-After getting your own acess to (Twitter API)[https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api] you'll be ready to search for tweets.
+After getting your own acess to [Twitter API](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) you'll be ready to search for tweets.
 
 For instance, the Python code below greps tweets about "chilling capybaras":
 

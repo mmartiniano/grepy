@@ -1,10 +1,10 @@
 # Twitter
 
-After getting your own acess to (Twitter API)[https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api] you'll be ready to search for tweets.
+After getting your own acess to [Twitter API](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) you'll be ready to search for tweets.
 
 ## Requirements
 
-On your (Python virtual environment)[https://docs.python.org/pt-br/3/library/venv.html], run:
+On your [Python virtual environment](https://docs.python.org/pt-br/3/library/venv.html), run:
 
 ```pip install -r twitter/requirements.txt```
 
@@ -25,7 +25,7 @@ for tweet in tweets:
     print(tweet['text'])
 ```
 
-Besides just iterating over tweets, you can easily write them to a file:
+Instead of just iterating over tweets, you can also easily write them to a file:
 
 ```
 from twitter import Twitter
@@ -37,4 +37,4 @@ tweets = twitter.search_tweets(query)
 writer('capybaras.csv', tweets)
 ```
 
-To learn how to build a query that fits your needs, please check (this out)[https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query].
+To learn how to build a query that fits your needs, please check [this out](https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query).
