@@ -2,8 +2,8 @@ import requests
 from http import HTTPStatus
 from time import sleep
 
-from util.stopwatch import Stopwatch
-from base import PaginatedAPI
+from shared.util.stopwatch import Stopwatch
+from shared.base import PaginatedAPI
 from twitter.alias import TwitterAPI
 from twitter.exceptions import TwitterError, UnauthorizedError
 

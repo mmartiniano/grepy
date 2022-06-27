@@ -29,6 +29,7 @@ Instead of just iterating over tweets, you can also easily write them to a file:
 
 ```
 from twitter import Twitter
+from shared.util.csv import writer
 
 twitter = Twitter('TWITTER_API_TOKEN', log=True)
 query = '(chilling capybara) lang:en -is:retweet'

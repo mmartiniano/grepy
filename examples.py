@@ -1,4 +1,4 @@
-from util.csv import writer
+from shared.util.csv import writer
 
 
 ### Twitter ###
